@@ -4,17 +4,75 @@ layout: default
 
 <div class="home">
 
-  <h1>Posts</h1>
-
-  <ul class="posts">
+  <!--<ul class="posts">
     {% for post in site.posts %}
       <li>
         <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
         <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
       </li>
     {% endfor %}
-  </ul>
+  </ul>-->
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+  <div class="container">
+    <div class="row bigSectionSpace">
+      <div class="col-md-12">
 
-</div>
+        <p class="lead">Mail Victory is a blog about email development with an emphasis on simplifying building responsive emails. Mail Victory developed <strong>Mailmods [HTML Modules]</strong>: A Responsive Email Templating Framework.</p>
+        <div class="clearfix"></div>
+        <br /><hr /><br />
+        <div class="row">
+          <div class="col-md-12">
+            <div class="row">
+              <div class="col-md-offset-1 col-md-5">
+                <p class="summary">Mailmods were created to streamline email development so that you, the email creator (developer), can focus on great content and beautiful creative.</p>
+                <p>Mailmods are built to make for seamless email development. They process was started over a year ago with the task of making a mobile friendly newsletter. In the process it started to be easier to make email parts and putting them into a basic <strong>HTML Skeleton</strong>.</p>
+
+              </div>
+              <div class="col-md-5">
+                <pre>
+                  &lt;!-- end content mod 1 [nav] --&gt;
+                  &lt;!-- start content mod 2 [] --&gt;
+                  &lt;table width="100%" align="center" cellpadding="0" border="0" cellspacing="0" id="mobileEmailSlider"&gt;
+                  &lt;tr valign="top"&gt;
+                  &lt;td width="100%" cellpadding="0" border="0" cellspacing="0" id="mobileEmailSliderWrap"&gt;
+                  &lt;img src="http://mailvictory.site44.com/mailmod/imgs/Animated-Mail-Mod-Slider.gif"<br />  style="display:block;height:auto;width:100%;" id="navGradientWrapTopImg" /&gt;
+                  &lt;/td&gt;
+                  &lt;/tr&gt;
+                  &lt;/table&gt;
+                  &lt;!-- end content mod 2 [] --&gt;
+                </pre></div>
+              </div>
+              <dic class="row">
+                <div class="col-md-offset-1 col-md-10"><br /><hr /><br /></div>
+              </div>
+              <div class="clearfix"></div>
+              <div class="row-fluid">
+                <div class="col-md-offset-1 col-md-5">
+                  <p class="summary">After streamlining the basic HTML Skeleton and Module parts of a responsive email it became clear that using a pre-processor could speed up and simplify the responsive email development process even more.</p> 
+                  <p><a href="http://jade-lang.com/" target="_blank"><strong>Jade</strong></a>, <a href="http://haml.info/">HAML</a> and <a href="http://sass-lang.com/">SCSS</a> can be incorporated into your project to further simplify the development time and process.</p>
+                </div>
+                <div class="col-md-5">
+                  <pre>
+                    table(bgcolor="#ffffff", width="600", style="max-width:600px;", align="center",
+                    border="0", cellpadding="0", cellspacing="0", id="mobileEmailMain")
+                    tr
+                    td(width="100%", style="border:solid 1px #cccccc", class="mobileborder")
+                    td(width="10", height="100%", border="0", cellpadding="0", cellspacing="0", ba
+                    tr
+                    td(colspan="3", border="0", cellpadding="0", cellspacing="0", height="10",
+                    background="http://mailvictory.site44.com/mailmod/imgs/bottom_bg620.png", class="shadow")</pre>
+
+                  </div>
+                  <dic class="row">
+                    <div class="col-md-offset-1 col-md-10"><br /><hr /></div>
+                  </div>
+                  <dic class="row">
+                    <div class="col-md-offset-1 col-md-10">
+                      <center><small><strong>The code snippets above are general samples of MailMods. The first sample is a basic Mod Part and the second is the same but written with Jade.</strong></small></center></div></div>
+
+
+                    </div>
+                  </div>
+
+
+                </div>
